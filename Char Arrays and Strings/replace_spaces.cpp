@@ -1,4 +1,5 @@
 string replaceSpaces(string &str){
+    //T.C = O(n) , S.C = O(n)
 	string temp = "";
     
     for(int i = 0; i<str.length(); i++) {
