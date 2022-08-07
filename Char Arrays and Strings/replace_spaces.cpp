@@ -15,3 +15,16 @@ string replaceSpaces(string &str){
     }
     return temp;
 }
+
+
+string replaceSpaces(string &str){
+	// T.C = O(n) , S.C = O(1)
+    for(int i = 0; i < str.length(); i++)
+    {
+        if(str[i] == ' ')
+        {
+            str.replace(i, 1, "@40");
+        }
+    }
+    return str;
+}
